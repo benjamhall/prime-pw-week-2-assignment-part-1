@@ -13,6 +13,8 @@ console.log( lastName );
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 // (remember, you already have variables for this, can you use those?)
 
+// Yes you can use those previous variables
+
 let fullName = firstName + lastName;
 
 // 4 - Console log the value of `fullName`
@@ -28,7 +30,7 @@ console.log( luckyNumber );
 // 'My name is (full name), and I think (lucky number) is a winner!'.
 // Refer back to the videos if you need help with this one.
 
-console.log( 'My name is:', firstName + 'and I think:', luckyNumber + 'is a winner!:' );
+console.log( 'My name is', fullName, 'and I think', luckyNumber, 'is a winner!' );
 
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 
